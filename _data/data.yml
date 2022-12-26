@@ -142,12 +142,29 @@ presentation:
     title: Presentations
     info:
 
-      - role: Oral Presentation 
+      - role: HIBIT
         time: 2021
-        company: HIBIT
+        company: Oral Presentation 
         details: |
           Inter-tissue divergence during development and convergence during ageing
 
+      - role: 
+        time: 
+        company: 
+        details: |
+          DD
+
+      - role: 
+        time: 
+        company: 
+        details: |
+          DD
+          
+      - role: 
+        time: 
+        company: 
+        details: |
+          DD
 projects:
     title: Teaching-Work Experience
 #    intro: >
