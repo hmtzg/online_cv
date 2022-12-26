@@ -16,12 +16,13 @@
 
       <div class="upper-row">
         <h3 class="job-title">
-        {% if project.link %}
-        {{ presentation.role }}
-        <a href="{{ presentation.link }}" target="_blank">{{ presentation.title }}</a>
-        {% else %}
-        {{ presentation.title }}
-        {% endif %}
+          {% if presentation.link %}
+          <a href="{{ presentation.link }}" target="_blank">{{ presentation.role }}</a>
+          {{ presentation.role }}
+          {% else %}
+          {{ project.title }}
+          {% endif %} 
+        
         </h3>
         <div class="time">{{ presentation.time }}</div>
       </div><!--//upper-row-->
