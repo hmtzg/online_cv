@@ -121,7 +121,7 @@ experiences:
           1. Started my MSc in Dr. Mesut Muyan's lab. Project Title: "Characterization of Estrogen Responsive CXXC5 gene through stable transfection". After about ten months, I decided to switch to computational biology.
           - Basic molecular biology techniques including cell culture, DNA, RNA isolation, blotting and PCR techniques
           
-          2. Continued MSc in Dr. Mehmet Somel's lab (2016-2017). **Thesis Title**: "Meta analysis of alzheimer’s disease at the gene expression level".
+          2. Continued MSc in Dr. Mehmet Somel's lab (2016-2017). **Thesis Title**: "Meta analysis of Alzheimer’s disease at the gene expression level".
           - Analysis of transcriptome data from microarray in R using various packages and pipelines.
                     
       - role: Internship
@@ -138,6 +138,14 @@ experiences:
           Summer internship in Dr. Claudia Kücherer's lab in Department of Infectious Diseases, HIV and Other Retroviruses Division. Project Title: "Optimization of HIV-1 Subtype Generic RT-PCRs for Protease and Reverse Transcriptase Genomic Region for HIV-1 Genotyping from Filter Dried Serum Samples".
           - RNA isolation, PCR, Sanger sequencing, Electrophoresis
 
+presentations:
+    title: Presentations
+    info:
+
+      - role: Oral Presentation 
+        time: 2021
+        company: HIBIT
+        details: Inter-tissue divergence during development and convergence during ageing
 
 projects:
     title: Teaching-Work Experience
