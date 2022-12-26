@@ -3,219 +3,232 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Hamit İzgi
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Computational Biologist
+    avatar: myprofile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: izhamit@metu.edu.tr
+    phone: +90 312 210 7625
+    timezone: GMT +03:00
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+#    website: blog.webjeda.com #do not add http://
+#    linkedin: alandoe
+#    xing: alandoe
+    github: hmtzg
+#    telegram: # add your nickname without '@' sign
+#    gitlab:
+#    bitbucket:
+#    twitter: '@webjeda'
+#    stack-overflow: # Number/Username, e.g. 123456/alandoe
+#    codewars:
+#    goodreads: # Number-Username, e.g. 123456-alandoe
+#    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Turkish
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Japanese
+          level: Intermediate
 
     interests:
-      title: Interests
+      title: Research Interests
       info:
-        - item: Climbing
+        - item: Computational Biology
           link:
 
-        - item: Snowboarding
+        - item: Ageing
           link:
 
-        - item: Cooking
+        - item: Metagenomics
           link:
 
 career-profile:
-    title: Career Profile
+    title: Research Description
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a computational biologist with a strong background in ageing research. I mainly used R programming language for the analysis of gene expression data from RNA-seq and microarrays. I am currently completing my PhD, which focused on gene expression convergence of tissues in ageing. I plan to continue working on the ageing research.
+ 
+#Motivation to do a postdoc
+#Expectation from the position
+#Written English
+#Attention to details in resume
+#Appropriate & relevant educational background
+#Appropriate & relevant work background
+#Experience with Machine learning & deep learning
+#Statistics knowledge
+#NGS / omic data analysis
+#R
+#Python
+#Other programming experience
+#Interest in ageing / microbiome
+#Publications 
+#Conference presentations
+#Quality of prior work and publications
+#Prior supervision experience
+#Prior funding & Awards
+#Extracurricular scientific activities
+#Collaboration experience
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD in Biology
+        university: METU
+        time: 2017 - Present
+        details: 
+
+      - degree: MSc in Biology
+        university: METU
+        time: 2014 - 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Meta Analysis of Alzheimer's Disease at the Gene Expression Level
+      - degree: BSc in Molecular Biology and Genetics
+        university: METU
+        time: 2009 - 2014
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - CGPA: 3.71
+
 experiences:
-    title: Experiences
+    title: Research Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+
+      - role: PhD Research
+        time: 2017 - Current
+        company: METU, Biology Department
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          PhD in Dr. Mehmet Somel's lab. 
+          1. Research focus on ageing with transcriptome analysis.
+          - Bulk tissue RNA-seq pipeline and analysis in R
+          - Common alignment tools (STAR, bowtie etc.), bash scripting
+          - Experienced with preprocessed single-cell RNA-seq data
+          
+          2. Microbial metagenomics in ancient DNA samples
+          - Using MALT, metaphlan metagenomics tools to study ancient microbial species
+                    
+      - role: MSc Research
+        time: 2015 - 2017
+        company: METU, Biology Department
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          1. Started my MSc in Dr. Mesut Muyan's lab. Project Title: "Characterization of Estrogen Responsive CXXC5 gene through stable transfection". After about ten months, I decided to switch to computational biology.
+          - Basic molecular biology techniques including cell culture, DNA, RNA isolation, blotting and PCR techniques
+          
+          2. Continued MSc in Dr. Mehmet Somel's lab (2016-2017). **Thesis Title**: "Meta analysis of alzheimer’s disease at the gene expression level".
+          - Analysis of transcriptome data from microarray in R using various packages and pipelines.
+                    
+      - role: Internship
+        time: 2014
+        company: METU, Biology Department
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Internship in Dr. Ufuk Gündüz's lab. Project Title: "Investigation of the role of PDCD10 in multidrug resistance in breast cancer"
+          - Common techniques including cell culture, qPCR and SDS-PAGE
+
+      - role: Internship
+        time: 2013
+        company: Robert Koch Institut, Berlin
+        details: |
+          Summer internship in Dr. Claudia Kücherer's lab in Department of Infectious Diseases, HIV and Other Retroviruses Division. Project Title: "Optimization of HIV-1 Subtype Generic RT-PCRs for Protease and Reverse Transcriptase Genomic Region for HIV-1 Genotyping from Filter Dried Serum Samples".
+          - RNA isolation, PCR, Sanger sequencing, Electrophoresis
+
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Teaching-Work Experience
+#    intro: >
+#     You can list your side projects in this
+#      section.
+
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Teaching Assistant (2017-Present)
+        link: "https://avesis.metu.edu.tr/izhamit"
+        tagline: "Teaching R and statistical analysis to undergraduate students in Biostatistics course lab"
 
-      - title: DevStudio
+      - title: Partial Server Admin (2017-2020)
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Worked as an unofficial server admin for our computational biology server by managing users, maintaining server and installing programs."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: HIBIT (2021) -  Oral Presentation
+        link: "http://hibit2021.bilkent.edu.tr/"
+        tagline: "Inter-tissue divergence during development and convergence during ageing"
+        
+      - title: Evolutionary Genomics Workshop (2018)
+        link: "https://www.bilimsenligi.com/evrimsel-genombilim-kis-okulu.html/"
+        tagline: "RNA sequencing, library preparation, mapping and downstream analysis methods."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Ecology and Evolutionary Biology Symposium (2018) - Poster Presentation
+        link: ""
+        tagline: "Gene expression reversals in mouse ageing and its comparison with primates"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Ecology and Evolutionary Biology Symposium (2017) - Poster Presentation
+        link: ""
+        tagline: "Meta analysis of Alzheimer's Disease at the gene expression level"
 
 oss:
-    title: OSS Contributions
+    title: Funds
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#      You can list your open source software contributions in this
+#      section.
+
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: TUBITAK 1002 Short Term Support (2016-2017)
+        link: "https://avesis.metu.edu.tr/proje/ef63ad3f-612b-403a-be7d-3dd682ec174c/sistem-biyolojisi-yaklasimi-ile-yaslanan-beyin-dokusunda-hucresel-ag-entropisinin-tanimlanmasi"
+        tagline: "Characterization of cellular network entropy in the ageing brain using a systems biology approach"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#
+#     - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile #apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their #mobile apps"
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Inter-tissue convergence of gene expression during ageing suggests age-related loss of tissue and cellular identity.
+        link: https://elifesciences.org/articles/68048
+        authors: Hamit Izgi, Dingding Han, Ulas Isildak, Shuyun Huang, Ece Kocabiyik, Philipp Khaitovich, Mehmet Somel, Handan Melike Dönertaş
+        conference: eLife 11:e68048 (2022)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title:  Gene expression reversal toward pre-adult levels in the aging human brain and age-related loss of cellular identity.
+        link: https://www.nature.com/articles/s41598-017-05927-4
+        authors: Handan Melike Dönertaş, Hamit İzgi, Altuğ Kamacıoğlu, Zhisong He, Philipp Khaitovich & Mehmet Somel
+        conference: Sci Rep 7, 5894 (2017)
 
-      - title: A syntax directed compiler for Algol 60
+
+      - title: (In revision) Old-biased genes are subject to weak purifying selection at both the tissue and cell type-specific levels.
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Melih Yıldız, Hamit İzgi, Firuza Rahimova, Umut Berkay Altıntaş, Zeliha Gözde Turan, Mehmet Somel
+        conference: 
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: R
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Python
+        level: 80%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Bash
+        level: 80%
+
+      - name: C
+        level: 20%
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
