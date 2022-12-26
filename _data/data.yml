@@ -149,11 +149,12 @@ presentation:
         details: |
           Inter-tissue divergence during development and convergence during ageing
 
-      - role: 
-        time: 
-        company: 
+      - role: Ecology and Evolutionary Biology Symposium 
+        time: 2018
+        link: 
+        company: Poster Presentation
         details: |
-          DD
+          Gene expression reversals in mouse ageing and its comparison with primates
 
       - role: 
         time: 
@@ -181,9 +182,6 @@ projects:
         link: "#"
         tagline: "Worked as an unofficial server admin for our computational biology server by managing users, maintaining server and installing programs."
 
-      - title: HIBIT (2021) -  Oral Presentation
-        link: "http://hibit2021.bilkent.edu.tr/"
-        tagline: "Inter-tissue divergence during development and convergence during ageing"
         
       - title: Evolutionary Genomics Workshop (2018)
         link: "https://www.bilimsenligi.com/evrimsel-genombilim-kis-okulu.html/"
@@ -191,7 +189,7 @@ projects:
 
       - title: Ecology and Evolutionary Biology Symposium (2018) - Poster Presentation
         link: ""
-        tagline: "Gene expression reversals in mouse ageing and its comparison with primates"
+        tagline: ""
 
       - title: Ecology and Evolutionary Biology Symposium (2017) - Poster Presentation
         link: ""
