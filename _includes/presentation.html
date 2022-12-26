@@ -19,9 +19,8 @@
           {% if presentation.link %}
           <a href="{{ presentation.link }}" target="_blank">{{ presentation.role }}</a>
           {% else %}
-          {{ presentation.role }}
-          {% endif %} 
-        
+          {{ presentation.title }}
+          {% endif %}
         </h3>
         <div class="time">{{ presentation.time }}</div>
       </div><!--//upper-row-->
