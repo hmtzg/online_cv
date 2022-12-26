@@ -16,11 +16,11 @@
 
       <div class="upper-row">
         <h3 class="job-title">
+          {{ presentation.role }}
           {% if presentation.link %}
           <a href="{{ presentation.link }}" target="_blank">{{ presentation.role }}</a>
-          {{ presentation.role }}
           {% else %}
-          {{ project.title }}
+          {{ presentation.role }}
           {% endif %} 
         
         </h3>
