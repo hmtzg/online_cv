@@ -142,7 +142,7 @@ presentation:
     title: Presentations
     info:
 
-      - role: HIBIT
+      - role: Health Informatics and Bioinformatics Symposium(HIBIT)
         time: 2021
         link: "http://hibit2021.bilkent.edu.tr/"
         company: Oral Presentation 
@@ -156,17 +156,13 @@ presentation:
         details: |
           Gene expression reversals in mouse ageing and its comparison with primates
 
-      - role: 
-        time: 
-        company: 
+      - role: Ecology and Evolutionary Biology Symposium 
+        time: 2017
+        link: 
+        company: Poster Presentation
         details: |
-          DD
+          Meta analysis of Alzheimer's Disease at the gene expression level
           
-      - role: 
-        time: 
-        company: 
-        details: |
-          DD
 projects:
     title: Teaching-Work Experience
 #    intro: >
@@ -182,18 +178,9 @@ projects:
         link: "#"
         tagline: "Worked as an unofficial server admin for our computational biology server by managing users, maintaining server and installing programs."
 
-        
       - title: Evolutionary Genomics Workshop (2018)
         link: "https://www.bilimsenligi.com/evrimsel-genombilim-kis-okulu.html/"
         tagline: "RNA sequencing, library preparation, mapping and downstream analysis methods."
-
-      - title: Ecology and Evolutionary Biology Symposium (2018) - Poster Presentation
-        link: ""
-        tagline: ""
-
-      - title: Ecology and Evolutionary Biology Symposium (2017) - Poster Presentation
-        link: ""
-        tagline: "Meta analysis of Alzheimer's Disease at the gene expression level"
 
 oss:
     title: Funds
