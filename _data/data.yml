@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Hamit İzgi
-    tagline: Computational Biologist
+    tagline: PhD Researcher @CompEvo, METU
     avatar: myprofile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -16,7 +16,7 @@ sidebar:
     phone: +90 312 210 7625
     timezone: GMT +03:00
     citizenship:
-#    website: blog.webjeda.com #do not add http://
+    website: http://compevo.bio.metu.edu.tr/
 #    linkedin: alandoe
 #    xing: alandoe
     github: hmtzg
