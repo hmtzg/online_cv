@@ -53,6 +53,10 @@ sidebar:
         - item: Metagenomics
           link:
 
+career-profile:
+    title: Research Description
+    summary: |
+      I am a computational biologist with a strong background in ageing research. I mainly used R programming language for the analysis of gene expression data from RNA-seq and microarrays. I am currently completing my PhD, which focused on gene expression convergence of tissues in ageing. I plan to continue working on the ageing research.
  
 education:
     title: Education
