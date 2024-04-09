@@ -61,9 +61,14 @@ career-profile:
 education:
     title: Education
     info:
+    - degree: Post-doc in Biology
+        university: Middle East Technical University, Ankara, Turkey
+        time: 2023 - Present
+        details: 
+
       - degree: PhD in Biology
         university: Middle East Technical University, Ankara, Turkey
-        time: 2017 - Present
+        time: 2017 - 2023
         details: 
 
       - degree: MSc in Biology
